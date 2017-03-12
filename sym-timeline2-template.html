@@ -1,0 +1,66 @@
+﻿
+
+<style>
+	.modal-backdrop{
+		position:static !important;
+	}
+	
+	.vis-item.red {		  
+		  background-color: red;
+		}
+	.vis-item.yellow {		  
+		  background-color: yellow;
+		}
+	.vis-item.cyan {		  
+		  background-color: cyan;
+		}
+	.vis-item.darkorange {		  
+		  background-color: darkorange;
+		}
+	.vis-item.plum {		  
+		  background-color: plum;
+		}
+	.vis-item.lime {		  
+		  background-color: lime;
+		}
+</style>
+
+
+<div id="container" style="width:100%;height:100%;">  
+
+	<script type="text/javascript">
+	$(document).ready(function() { 
+		
+	});
+	
+	
+	
+</script>
+
+
+	<script src="/Coresight/Scripts/app/editor/symbols/ext/vis/dist/vis.js"></script>
+    <link href="/Coresight/Scripts/app/editor/symbols/ext/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+	
+	<script src="/Coresight/Scripts/app/editor/symbols/ext/bootstrap.min.js"></script>
+    <link href="/Coresight/Content/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	
+	<div class="modal fade" style="z-index:1000000" id="EnSureModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Downtime Cause</h4>
+            </div>
+            <div class="modal-body">
+                <select name="tumcause" id="tumcause" class="tumcause">
+				</select>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">no</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="save">yes</button>
+            </div>
+        </div>
+    </div>
+</div>
+	
+</div>
